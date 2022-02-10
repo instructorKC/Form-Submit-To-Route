@@ -20,8 +20,10 @@
     // User fills out form and it sends
     // info to the database and creates
     // new user entry
-    console.log(data);
-    res.send('success')
+    
+    console.log(data);  
+    res.json(data)
+  //  res.send('success')
   })
 
 
